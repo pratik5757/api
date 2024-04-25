@@ -9,7 +9,7 @@ export default async function getCountries(){
   
     let topCountries = sortedCountries.slice(0, 10);
    
-  // console.log(topCountries)
+   
     return topCountries;
 } catch (error) {
   console.error("Error fetching countries:", error);
